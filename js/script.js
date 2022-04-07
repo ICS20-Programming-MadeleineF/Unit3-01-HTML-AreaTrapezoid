@@ -18,5 +18,5 @@ function calculate() {
   const area = [(baseA + baseB) /2] * height
   
   // output
-  document.getElementById('area').innerHTML = 'The area of the trapezoid is: ' + area.toFixed(2) + ' cm²'
+  document.getElementById('area').innerHTML = 'The area of the trapezoid is: ' + area.toFixed(3) + ' cm²'
 }
